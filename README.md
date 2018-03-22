@@ -14,6 +14,7 @@ All files correspond to a category. The files are lists of JSON objects like:
   "lang" : "en",
   "question" : "Question text",
   "answer" : 0,
+  "tags":[CATEGORY_NAME, TAG1, TAGN]
   "answers": [
     "answer 0",
     "answer 1",
@@ -23,8 +24,34 @@ All files correspond to a category. The files are lists of JSON objects like:
 }
 ```
 
+## Valid question
+A question is considered "valid" when:
+- It has more than 1 answers
+- Have a "good" answer
+- Have a link to the source (explanation of the answer)
+- Have one or more tags
+
+## Category and tags
+What between categories and tags ?
+- A question can have multiple tags
+- The category is the tag that best defines the question.
+
+Tags and category should be an ENGLISH_SINGULAR_UPPERCASED_STRING to be used as index
+(for translations or whatever).
+
 ## File organisation
-All "todo" folders contain non-finished files.
+- All "todo" folders contain non-finished files.
+- "need_review" folders contains questions with some answers but need validation
+- Validated questions are in the language root folder:
+
+```text
+en:
+  todo/            <- New questions
+    history.json
+  staging/         <- Incomplete questions with answers
+    history.json
+  history.json     <- Complete history questions
+```
 
 ## Participating:
 If you want to participate to this project, you're welcome. Please, follow these
