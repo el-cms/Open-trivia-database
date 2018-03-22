@@ -14,7 +14,7 @@ All files correspond to a category. The files are lists of JSON objects like:
   "lang" : "en",
   "question" : "Question text",
   "answer" : 0,
-  "tags":[CATEGORY_NAME, TAG1, TAGN]
+  "tags":["CATEGORY_NAME", "TAG1", "TAGN"],
   "answers": [
     "answer 0",
     "answer 1",
