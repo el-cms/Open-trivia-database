@@ -319,7 +319,7 @@
   {"category_id":"ENTERTAINMENT", "lang":"en", "question":"What city's police force did Charlie Chan work with?", "answer":0, "answers":["Honolulu"], "source":""},
   {"category_id":"ENTERTAINMENT", "lang":"en", "question":"What classic rock band sang the song 'Paint It, Black'?", "answer":0, "answers":["Rolling Stones"], "source":""},
   {"category_id":"ENTERTAINMENT", "lang":"en", "question":"What color was Bullitt's car?", "answer":0, "answers":["Green"], "source":""},
-  {"category_id":"ENTERTAINMENT", "lang":"en", "question":"What colour is Art & Literature in the standard edition of \"Trivial Pursuit\"?", "answer":0, "answers":["Brown"], "source":""}
+  {"category_id":"ENTERTAINMENT", "lang":"en", "question":"What colour is Art & Literature in the standard edition of \"Trivial Pursuit\"?", "answer":0, "answers":["Brown"], "source":""},
   {"category_id":"ENTERTAINMENT", "lang":"en", "question":"What comic strip character is Beetle Bailey's sister?", "answer":0, "answers":["Lois (of Hi and Lois)"], "source":""},
   {"category_id":"ENTERTAINMENT", "lang":"en", "question":"What comic strip character is Beetle Bailey's sister", "answer":0, "answers":["Lois (of hi and lois )"], "source":""},
   {"category_id":"ENTERTAINMENT", "lang":"en", "question":"What composer was working on his 10th symphony at the time of his death?", "answer":0, "answers":["Ludwig van Beethoven"], "source":""},
